@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#B22B6A</color> <!-- Colors the Status bar color -->
+    <color name="colorPrimary">#FC469B</color>
+    <color name="textColorPrimary">#fff</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="windowbackgrouned">#C0BCBE</color>
+    <color name="navigationBarColor">@color/colorPrimary</color>
+    <color name="clr_lightgreen">#2ed628</color>
 </resources>

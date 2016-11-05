@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Allinallelectronics</string>
+    <string name="app_name">AllInAllElectronics</string>
+    <string name="toolbar_title">All In All Electronics</string>
 </resources>

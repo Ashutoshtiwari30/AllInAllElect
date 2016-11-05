@@ -6,6 +6,23 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowbackgrouned</item>
+    </style>
+
+    <style name="AppThemeNOActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColorPrimary">#ff0000</item>-->
+        <item name="android:windowBackground">@color/windowbackgrouned</item>
+        <!--<item name="android:navigationBarColor">@color/navigationBarColor</item>-->
+    </style>
+
+    <style name="AshuText">
+        <item name="android:textColor">@color/navigationBarColor</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
 </resources>
