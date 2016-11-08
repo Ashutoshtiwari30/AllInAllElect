@@ -9,7 +9,7 @@
     <!-- Container for the main screen containing toolbar and the listview -->
     <LinearLayout
         android:id="@+id/layout_container"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context="practise.layouts.allinallelectronics.MainActivity">
@@ -66,11 +66,19 @@
     <!-- SIDEBAR appears when swiped from left side of the screen -->
     <!--- The sidebar takes the form of an list of options and thus is same as a listview -->
     <android.support.design.widget.NavigationView
+        android:id="@+id/design_navigation_view"
         android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/menu_sidebar"
         android:background="@color/clr_lightgreen"/>
+
+   <!-- <android.support.design.widget.NavigationView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|end"
+        app:menu="@menu/menu_sidebar"
+        android:background="@color/clr_lightgreen"/>-->
 
 
 </android.support.v4.widget.DrawerLayout>
