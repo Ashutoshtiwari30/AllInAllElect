@@ -49,7 +49,7 @@
             android:id="@+id/app_toolbar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@drawable/fruits_strawberry_header"
+            android:background="@color/clr_toolbar_background"
             android:elevation="4dp">
 
             <TextView
@@ -61,6 +61,86 @@
 
         </android.support.v7.widget.Toolbar>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:background="@drawable/banner_electronics">
+
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:text="Electronics" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/banner_electical">
+
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/lbl_electrical" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/banner_mechanical">
+
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/lbl_mechanical" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/banner_computerscince">
+
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/lbl_computer" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
     <!-- SIDEBAR appears when swiped from left side of the screen -->
@@ -70,15 +150,15 @@
         android:layout_width="200dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/menu_sidebar"
-        android:background="@color/clr_lightgreen"/>
+        android:background="@color/clr_lightgreen"
+        app:menu="@menu/menu_sidebar" />
 
-   <!-- <android.support.design.widget.NavigationView
-        android:layout_width="200dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="right|end"
-        app:menu="@menu/menu_sidebar"
-        android:background="@color/clr_lightgreen"/>-->
+    <!-- <android.support.design.widget.NavigationView
+         android:layout_width="200dp"
+         android:layout_height="match_parent"
+         android:layout_gravity="right|end"
+         app:menu="@menu/menu_sidebar"
+         android:background="@color/clr_lightgreen"/>-->
 
 
 </android.support.v4.widget.DrawerLayout>

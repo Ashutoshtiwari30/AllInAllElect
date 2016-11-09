@@ -3,4 +3,20 @@
     <string name="toolbar_title">All In All Electronics</string>
     <string name="drawer_status_open">Open Drawer</string>
     <string name="drawer_status_close">Close Drawer</string>
+
+    <string name="lbl_services">Services</string>
+    <string name="lbl_Training">Trainings</string>
+    <string name="lbl_manufacturing">Manufacturing</string>
+    <string name="lbl_Repairing">Repairing</string>
+
+    <string name="lbl_Projects">Projects</string>
+    <string name="lbl_electronics">Electronics - All</string>
+    <string name="lbl_electrical">Electricals</string>
+    <string name="lbl_mechanical">Mechanical</string>
+    <string name="lbl_computer">Computer Science</string>
+
+    <string name="lbl_Gallery">Gallery</string>
+    <string name="lbl_Notification">Notification</string>
+    <string name="lbl_Contact">Contact Us</string>
+    <string name="lbl_about">About Us</string>
 </resources>

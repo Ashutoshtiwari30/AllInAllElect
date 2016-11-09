@@ -7,4 +7,5 @@
     <color name="windowbackgrouned">#C0BCBE</color>
     <color name="navigationBarColor">@color/colorPrimary</color>
     <color name="clr_lightgreen">#2ed628</color>
+    <color name="clr_toolbar_background">#67B9E6</color>
 </resources>

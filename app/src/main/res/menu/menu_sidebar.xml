@@ -2,40 +2,68 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <!--Patttern 1 :
         * -->
-    <item
-        android:id="@+id/item_services"
-        android:title="Services">
+    <item android:title="@string/lbl_services">
 
         <!-- Pattern 2 : To make a submenu appear within an item -->
         <menu>
-            <item android:title="Trainings" />
-            <item android:title="Manufacturing" />
-            <item android:title="Repairing" />
+            <item
+                android:id="@+id/item_training"
+                android:icon="@drawable/training48"
+                android:title="@string/lbl_Training" />
+            <item
+                android:id="@+id/item_manufacture"
+                android:icon="@drawable/manufacture48"
+                android:title="@string/lbl_manufacturing" />
+            <item
+                android:id="@+id/item_repairing"
+                android:icon="@drawable/reparing48"
+                android:title="@string/lbl_Repairing" />
+
+        </menu>
+    </item>
+
+    <!-- 1. Header icon wold not be shown. -->
+    <item
+        android:id="@+id/item_project"
+        android:icon="@drawable/project"
+        android:title="@string/lbl_Projects">
+        <menu>
+            <item
+                android:id="@+id/item_electroincs"
+                android:icon="@drawable/electronics48"
+                android:title="@string/lbl_electronics" />
+            <item
+                android:id="@+id/item_electricals"
+                android:icon="@drawable/electrical48"
+                android:title="@string/lbl_electrical" />
+            <item
+                android:id="@+id/item_mechanical"
+                android:icon="@drawable/mechanical48"
+                android:title="@string/lbl_mechanical" />
+            <item
+                android:id="@+id/item_computer"
+                android:icon="@drawable/computer"
+                android:title="@string/lbl_computer" />
         </menu>
     </item>
 
     <item
-        android:id="@+id/item_project"
-        android:icon="@drawable/project"
-        android:title="Projects" />
-
-    <item
         android:id="@+id/item_gallery"
         android:icon="@drawable/gallery"
-        android:title="Gallery" />
+        android:title="@string/lbl_Gallery" />
 
     <item
         android:id="@+id/item_notification"
         android:icon="@drawable/notification"
-        android:title="Notifications" />
+        android:title="@string/lbl_Notification" />
 
     <item
         android:id="@+id/item_contactus"
         android:icon="@drawable/contact"
-        android:title="Contact Us" />
+        android:title="@string/lbl_Contact" />
 
     <item
         android:id="@+id/item_about"
         android:icon="@drawable/about_48"
-        android:title="About Us" />
+        android:title="@string/lbl_about" />
 </menu>

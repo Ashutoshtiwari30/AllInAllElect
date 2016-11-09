@@ -55,11 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 String message = null;
 
                 switch (item.getItemId()) {
-                    case R.id.item_services:
-                        message = "Services Clicked";
+                    case R.id.item_manufacture:
+                        message = "manufacture";
                         break;
-                    case R.id.item_project:
-                        message = "Projects Clicked";
+                    case R.id.item_repairing:
+                        message = "repairing";
+                        break;
+                    case R.id.item_training:
+                        message = "trainings";
                         break;
                     case R.id.item_about:
                         message = "Clicked";
@@ -70,6 +73,22 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.item_contactus:
                         message = "Clicked";
                         break;
+                    case R.id.item_electricals:
+                        message = "Clicked";
+                        break;
+                    case R.id.item_electroincs:
+                        message = "Clicked";
+                        break;
+                    case R.id.item_mechanical:
+                        message = "Clicked";
+                        break;
+                    case R.id.item_computer:
+                        message = "Clicked";
+                        break;
+                    case R.id.item_notification:
+                        message = "Clicked";
+                        break;
+
 
                     default:
                         return false;
@@ -80,11 +99,14 @@ public class MainActivity extends AppCompatActivity {
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
 
+                // close the drawer..
+                drawer.closeDrawers();
+
                 return true;
             }
         });
 
-        toggler = new ActionBarDrawerToggle(this, drawer, app_toolbar, R.string.drawer_status_open, R.string.drawer_status_close){
+        toggler = new ActionBarDrawerToggle(this, drawer, app_toolbar, R.string.drawer_status_open, R.string.drawer_status_close) {
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
